@@ -1,0 +1,87 @@
+*{
+    padding: 8px;
+    margin: 0px;
+}
+nav{
+    height: 32px;
+    background-color: #8b0000;
+}
+nav ul{
+    list-style: none;
+}
+.text-center{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nombre{
+text-align: center;
+font-family: 'Time New Roman';
+}
+.nene{
+    height: 15px;
+    background-color: #8b0000;
+}
+nav a{
+    color: #8b0000;
+    text-decoration:none;
+    padding: 200px;
+}
+nav ul li{
+    float:inline-start;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ne{
+    height: 1px;
+    background-color: black;
+}
+.Picture{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.Picture ul{
+    display: flex;
+    padding: 5%;
+    width: 400%;
+    animation: automatico 17s infinite alternate linear;
+}
+.Picture li{
+    width: 100%;
+    height: 350%;
+    list-style: none;
+}
+.Picture img{
+    width: 97%;
+    height: 350%;
+}
+@media(main-width: 768px){
+    .Picture img{
+        height: 650px;
+    }
+}
+@keyframes automatico{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+.neo{
+    height: 1px;
+    background-color: black;
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman'
+}
+.redes{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
